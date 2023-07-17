@@ -1,0 +1,87 @@
+Course Outline: Introduction to Linux (Basic Commands & Package Management): Part 2
+
+**Commands to be used**: pwd, cd, mkdir, ls, rm, cp, mv, cat, touch, echo, grep, man, chmod, chown, su, sudo, tar
+
+Module 1: Introduction to Linux Operating System 
+
+ * Brief history and development of Linux.
+ * What is Linux Command?
+ * Understanding Linux distributions.
+
+Module 2: Navigating the Linux File System
+
+ * Understanding the file system hierarchy in Linux.
+ * Working with directories and files.
+ * Essential file system navigation commands (cd, ls, pwd).
+
+Module 3: Managing Files and Directories.
+
+ * Creating, renaming, and deleting files and directories (touch, mkdir, rm, rmdir, cat, mv)
+ * Moving and copying files and directories (mv, cp)
+ * Changing file and directory permissions.
+
+Module 4:  Working with Text Files 
+
+ * Viewing and editing text files using command-line editors (nano, vim).
+ * Redirecting input and output with file redirection operators.
+ * Searching for text within files (grep).
+
+Module 5: Creating and Managing Users
+
+ * Creating Users (useradd)
+ * User group (groupadd, usermod)
+ * Adding Users and Removing Users from User group
+ * Switching between User Accounts.  
+
+Module 6: Other commands and usage
+
+ * echo - Prints text or variables to the terminal.
+ * man - Displays the manual pages for a command.
+ * chmod - Changes file or directory permissions.
+ * chown - Changes the owner of a file or directory.
+ * su - Switches user accounts or becomes the superuser.
+ * sudo - Executes a command as the superuser.
+ * tar - Archives and extracts files from a tarball
+
+💡 Side Hustle Task 1⏱️:
+
+**Note:** In this task you can use google search to figure out and search for commands:
+
+ 1. Create a folder called “boma” and another folder called “Boma”.
+ 2. Navigate into the 2 folders created above, create a text file name “boma-file”  and “boma file” respectively in each of the folder in task 1.
+ 3. Copy the file named “boma-file” to “Boma”
+ 4. Use vim and nano to add content of your choice to each of the files in task 1
+ 5. List out different groups and users that come with Linux OS
+ 6. Create a user named “john”
+ 7. Add John to administrator group
+ 8. Login to John’s account
+ 9. Create a group called DevOps, add John to DevOps group, while John still maintains his admin privileges
+ 10. Add John to the DevOps group with no more admin privileges.
+
+Module 6: Package Management in Linux
+
+ * Introduction to package management systems (apt, yum, dnf)
+ * Updating and upgrading software packages
+ * Installing and removing software packages
+
+💡 Side Hustle Task 2⏱️:
+Use Google to find the correct package name and install the following tools.
+Ensure to test your installation, and verify that the software has installed successfully. ⚠️ Caution: Not all will run as a service like apache2. Hence, attempt to research the best way to test your installation.
+
+ 1. vim
+ 2. nano
+ 3. gparted
+ 4. peek
+ 5. htop
+ 6. nmap
+ 7. php
+ 8. Systat
+ 9. Nginx
+ 10. mysql
+
+Conclusion: 
+ * Recap of Linux command
+ * Recap of Linux package management 
+
+
+
